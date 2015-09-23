@@ -16,5 +16,26 @@ namespace CSharp.Training
         {
             throw new NotImplementedException("The trainee should implement this code");
         }
+        public string Fizz(int number) {
+
+            if (number % 3 == 0 && number %5 == 0)
+            {
+                return "FizzBuzz";
+            }
+            else
+            if (number % 3 == 0)
+            {
+                return "Fizz";
+            }
+            else
+            if (number % 5 == 0)
+            {
+            return "Buzz";
+            }
+            else
+            {
+            return "nope";
+            }
+        }
     }
 }
