@@ -5,6 +5,7 @@
        
         public string PalindromeMethod(string word)
         {
+            word = word.Replace(" ", "");
             string revs = "";
             for (int i = word.Length - 1; i >= 0; i--) //String Reverse
             {
